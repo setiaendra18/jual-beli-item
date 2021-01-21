@@ -10,7 +10,7 @@
         
         <div class="header-btn">
             <a href="{{ url('/') }}" class="btn btn-secondary">
-                <i class="fas fa-list"></i><span>Toko Item</span></a>
+                <i class="fas fa-list"></i><span>Toko Items</span></a>
                 
 
             <a href="{{ url('/tampil-keranjang/') }}" class="btn btn-secondary">

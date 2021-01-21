@@ -49,7 +49,7 @@ class HomeController extends Controller
                     ]
             ];
             session()->put('cart', $cart);
-            return redirect()->back()->with('success', 'barang added to cart successfully!');
+            return redirect()->back()->with('success', 'barang d added to cart successfully!');
         }
         if(isset($cart[$id])) {
             $cart[$id]['qty']++;
